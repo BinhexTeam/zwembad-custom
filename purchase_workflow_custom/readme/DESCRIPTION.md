@@ -1,0 +1,2 @@
+This is a custom module covering the features request by Zwembad BV which are related to the purchase workflows. This is the list of features covered on this module:
+- Filter on the purchase orders, by which the partner_id field shows and allow to select only the contacts of type "contact" that don't have any parent, effectively allowing to select only main contacts, not its childs. (domain ["&", ("type", "=", "contact"), ("parent_id", "=", False)])
