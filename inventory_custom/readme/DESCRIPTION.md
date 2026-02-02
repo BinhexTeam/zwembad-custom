@@ -1,0 +1,2 @@
+This is a custom module covering the features request by Zwembad BV which are related to the inventory handling and workflows. This is the list of features covered on this module:
+- Create a "mirror" field for the free_qty field of the product.template model, this is helpful for handling automations of the products lifecycle, like EOL tags, etc. since only store=True products can be used as automation triggers.
